@@ -26,5 +26,8 @@
             "statusCode": 302,
             "redirect": "/login"
         }
+        "404": {
+            "redirect": "/login"
+        }
     }
 }
