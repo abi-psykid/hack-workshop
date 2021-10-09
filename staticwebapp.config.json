@@ -2,7 +2,7 @@
     "routes": [
         {
             "route":"/login",
-            "redirect":"/.auth/login/githb"
+            "redirect":"/.auth/login/github"
         },
         {
             "route": "/logout",
@@ -22,12 +22,8 @@
         }
     ],
     "responseOverrides": {
-        "401": {
-            "statusCode": 302,
-            "redirect": "/login"
-        }
         "404": {
-            "statusCode": 301,
+            "statusCode": 302,
             "redirect": "/login"
         }
     }
