@@ -27,6 +27,7 @@
             "redirect": "/login"
         }
         "404": {
+            "statusCode": 301,
             "redirect": "/login"
         }
     }
